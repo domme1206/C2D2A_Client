@@ -22,7 +22,7 @@ public class Main {
     public static void main(String[] args) throws AWTException {
         historyFrame  = new JFrame("Historie");
         settingsFrame  = new JFrame("Einstellungen");
-        localPath = "/Users/dominikschafer/Downloads/";
+        localPath = "/Users/christian/Downloads/";
         c2d2aUrl = "http://www.google.de";
 
 
@@ -55,7 +55,7 @@ public class Main {
 
         BufferedImage im = null;
         try {
-            im = ImageIO.read(Main.class.getResource("1445303429_icon-141-box-filled.png"));
+            im = ImageIO.read(Main.class.getResource("/resources/bulb.gif"));
         } catch (IOException e) {
             e.printStackTrace();
         }
